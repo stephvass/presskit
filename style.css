@@ -1,77 +1,80 @@
-.parallaxOne {
-    background-image: url("Images/reynier-carl-440211-unsplash.jpg");
+/* Desktop */
+@@media (min-width: 769px) {
+  .parallaxOne {
+      background-image: url("Images/reynier-carl-440211-unsplash.jpg");
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .parallaxTwo {
+    background-image: url("Images/luca-bravo-195736-unsplash.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
 
-.parallaxTwo {
-  background-image: url("Images/luca-bravo-195736-unsplash.jpg");
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  body {
+    padding: 0;
+    margin: 0;
+  }
 
-body {
-  padding: 0;
-  margin: 0;
-}
+  h1 {
+    font-size: 3.3em;
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+    padding-top: 5vh;
+    margin: 0;
+  }
 
-h1 {
-  font-size: 3.3em;
-  font-family: 'Righteous', sans-serif;
-  text-align: center;
-  padding-top: 5vh;
-  margin: 0;
-}
+  p {
+    margin: 0;
+    padding: 2em;
+  }
 
-p {
-  margin: 0;
-  padding: 2em;
-}
+  #bio {
+    display: flex;
+  }
 
-#bio {
-  display: flex;
-}
+  #bio p {
+    flex: 1.5;
+  }
 
-#bio p {
-  flex: 1.5;
-}
+  #bio img {
+    flex: 1;
+    margin: 2em;
+    border-width: thin;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2%;
+  }
 
-#bio img {
-  flex: 1;
-  margin: 2em;
-  border-width: thin;
-  border-color: black;
-  border-style: solid;
-  border-radius: 2%;
-}
+  #mixcloud {
+    width: 90%;
+    padding: 5%;
+  }
 
-#mixcloud {
-  width: 90%;
-  padding: 5%;
-}
+  h2 {
+    font-size: 2.8em;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin:0;
+    padding-top: 3vh;
+    font-weight: bold;
+  }
 
-h2 {
-  font-size: 2.8em;
-  font-family: 'Comfortaa', cursive;
-  text-align: center;
-  margin:0;
-  padding-top: 3vh;
-  font-weight: bold;
-}
-
-#gallery {
-  display: flex;
-  flex: column
+  #gallery {
+    display: flex;
+    flex: column
+  }
 }
 
 /* Mobile */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
 
   #bio {
     display:  inline-block;
