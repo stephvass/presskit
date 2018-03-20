@@ -36,16 +36,13 @@
     padding: 2em;
   }
 
-  #bio {
-    display: flex;
-  }
-
   #bio p {
-    flex: 1.5;
+    width: 60%
+    text-align: center;
   }
 
   #bio img {
-    flex: 1;
+    width: 35%
     margin: 2em;
     border-width: thin;
     border-color: black;
@@ -83,6 +80,7 @@
   #bio p {
     font-size: 1.2em;
     line-height: 1.4;
+    text-align: center;
   }
 
   #bio img {
