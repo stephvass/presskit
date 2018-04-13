@@ -1,0 +1,3 @@
+Johannesburg born, Cape Town based, Steph Vass has patiently been cutting his teeth in the industry at festival and clubs across the country. His formless and fluid brand of progressive music has lead him to be highly acclaimed across genres and has left him unbound by style.
+
+This has resulted in a versatility that has equipped him with the skills required to enhance and elevate the energy on any dance floor he has encountered. Rooted in the melodic realm he has found way to carve out melodies in even the darkest of sounds and phattest of basslines.  

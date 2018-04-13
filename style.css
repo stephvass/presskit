@@ -1,112 +1,109 @@
-.parallaxOne {
-    background-image: url("Images/reynier-carl-440211-unsplash.jpg");
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallaxTwo {
-  background-image: url("Images/luca-bravo-195736-unsplash.jpg");
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 body {
   padding: 0;
   margin: 0;
+  background-image: url("Images/reynier-carl-440211-unsplash.jpg");
+  background-size: cover;
+}
+
+#bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bio img {
+  border-radius: 2%;
+  max-width: 80vh; /* Height not width! */
+  border: 1px solid #8d9093;
 }
 
 h1 {
-  font-size: 3.3em;
+  font-size: 2.6em;
   font-family: 'Righteous', sans-serif;
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 1vh;
   margin: 0;
 }
 
 p {
   margin: 0;
-  padding: 2em;
+  padding: 1.5vw;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
+  text-align: center;
 }
 
-#bio {
-  display: flex;
+li {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.1em;
+  text-align: center;
 }
 
-#bio p {
-  flex: 1.5;
-}
-
-#bio img {
-  flex: 1;
-  margin: 2em;
-  border-width: thin;
-  border-color: black;
-  border-style: solid;
-  border-radius: 2%;
-}
 
 #mixcloud {
-  width: 90%;
-  padding: 5%;
+  width: 95%;
+  padding: 0 2.5% 0 2.5%;
+
 }
 
-h2 {
-  font-size: 2.8em;
-  font-family: 'Comfortaa', cursive;
-  text-align: center;
-  margin:0;
-  padding-top: 3vh;
-  font-weight: bold;
-}
-
-#gallery {
+#picDownload {
   display: flex;
-  flex: column
+  justify-content: center;
+  text-decoration: none;
 }
 
-/* Mobile */
-@media screen and (max-width: 769px) {
+#picDownload button {
+  font-size: .9em;
+  margin-bottom: 1em;
+  padding: .5em;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* Mobile Portrait styles */
+@media screen and (orientation:portrait) and (max-width: 769px) {
 
   #bio {
     display:  inline-block;
   }
 
-  #bio p {
-    font-size: 1.2em;
+  p {
     line-height: 1.4;
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+    font-family: sans-serif;
+    font-weight: 300;
+  }
+
+  li {
+    font-family: sans-serif;
+    line-height: 1.4em;
+    font-weight: 400;
+    font-size: .9em;
   }
 
   #bio img {
-    width: 90vw;
-    margin: 3% 5% 0% 5%; /* Up, Right, Bot, Left */
-    border-width: thin;
-    border-color: black;
-    border-style: solid;
+    width: 80vw;
+    margin: 3% 10% 0% 10%; /* Up, Right, Bot, Left */
     border-radius: 2%;
   }
 
   .parallaxOne {
-      background-image: url("Images/reynier-carl-440211-unsplash.jpg");
-      height: 175vh;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-image: url("Images/reynier-carl-440211-unsplash-transparent.jpg");
       background-size: cover;
   }
 
-  .parallaxTwo {
-    background-image: url("Images/luca-bravo-195736-unsplash.jpg");
-    height: 150vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+  /* end of Mobile/Portrait styles */
+
+  /* Mobile Landscape*/
+  @media screen and (orientation:landscape) and (max-width: 769px) {
+
+
+
   }
 
 }
