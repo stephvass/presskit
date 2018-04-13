@@ -81,6 +81,12 @@ li {
     font-size: .9em;
   }
 
+  #bio img {
+    width: 80vw;
+    margin: 3% 10% 0% 10%; /* Up, Right, Bot, Left */
+    border-radius: 2%;
+  }
+
   .parallaxOne {
       background-image: url("Images/reynier-carl-440211-unsplash-transparent.jpg");
       background-size: cover;
