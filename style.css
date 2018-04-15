@@ -96,11 +96,9 @@ li {
 
   /* end of Mobile/Portrait styles */
 
-  /* Mobile Landscape*/
-  @media screen and (orientation:landscape) and (max-width: 769px) {
+/* Mobile Landscape*/
+@media screen and (orientation:landscape) and (max-width: 769px) {
 
 
-
-  }
 
 }
