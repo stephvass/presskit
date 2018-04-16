@@ -13,7 +13,7 @@ body {
 
 #bio img {
   border-radius: 2%;
-  max-width: 75vw; /* Height not width! */
+  max-width: 75vw;
   border: 1px solid #8d9093;
   margin: 1.5vh 0 1.5vh 0;
 }
@@ -132,8 +132,9 @@ a button:hover {
 
   #bio img {
     width: 100vw;
+    max-width: 100vw;
     margin: 3% 0 3% 0; /* Up, Right, Bot, Left */
-    border-radius: 2%;
+    border-radius: 0;
   }
 
   p {
