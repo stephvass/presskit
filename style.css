@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("Content/Background/reynier-carl-440211-unsplash-transparent.jpg");
+  background-image: url("Content/Background/luca-bravo-195736-unsplash-transparent.jpg");
   background-size: cover;
 }
 
@@ -60,6 +60,7 @@ p {
 
 figure img {
   width: 15vw;
+  border: 1px solid #8d9093;
 }
 
 figcaption {
@@ -103,19 +104,35 @@ a button:hover {
 #facebookBtn {
   background-color: #3b5998;
   color: white;
+  margin-right: 1.5vw;
 }
 
 #soundcloudBtn {
   background-color: #ff5500;
   color: white;
-  margin: 0 5vw 0 5vw;
+  margin-right: 1.5vw;
 }
 
 #instagramBtn {
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   color: white;
+  margin-right: 1.5vw;
 }
+
+#mixcloudBtn {
+  background-color: #2c3f4e;
+  color: white;
+  margin-right: 1vw;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
 
 /* Portrait styles */
 @media screen and (orientation:portrait) {
@@ -158,6 +175,7 @@ a button:hover {
 
   button {
     font-size: 2.5em;
+    margin-right: 0; /* Reset spacing, as it's done by flexbox on mobile */
   }
 
   #picsDownload{
@@ -167,11 +185,8 @@ a button:hover {
     margin-bottom: 2em;
   }
 
-  #facebookBtn {
-   margin-right: 10vw;
+  #contact {
+    justify-content: space-around;
   }
 
-  #soundcloudBtn {
-   margin-right: 10vw;
-  }
 }
