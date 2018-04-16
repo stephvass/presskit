@@ -53,23 +53,20 @@ p {
   width: 95%;
   margin: 0 2.5% 0 2.5%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end; /* Align on Figcaption */
   flex-wrap: wrap;
   text-align: center;
-  border: 1px solid #25292c;
 }
 
 figure img {
   width: 15vw;
-  border: 2px solid #8d9093;
 }
 
 figcaption {
   font-family: sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: .8em;
   line-height: 1.1em;
-
 }
 
 button {
@@ -156,7 +153,7 @@ a button:hover {
   figcaption {
     font-family: sans-serif;
     line-height: 1.4em;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 1.3em;
   }
 
