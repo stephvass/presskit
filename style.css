@@ -85,6 +85,14 @@ a button:hover {
   filter: alpha(opacity=85); /* IE */
 }
 
+figure img:hover {
+  opacity: 0.85;
+  filter: alpha(opacity=85); /* IE */
+}
+
+#unionImg {
+  border: 0;
+}
 
 #picsDownload {
   border-radius: 4px;
@@ -133,9 +141,8 @@ a button:hover {
   justify-content: flex-end;
 }
 
-
 /* Portrait styles */
-@media screen and (orientation:portrait) {
+@media screen and (orientation: portrait) {
 
   .parallaxOne {
     background-image: url("Content/Background/reynier-carl-440211-unsplash-transparent.jpg");
