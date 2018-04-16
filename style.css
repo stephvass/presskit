@@ -50,7 +50,7 @@ p {
 .gallery{
   display: flex;
   flex-direction: row;
-  width: 95%;
+  width: 100%;
   margin: 2.5vh 0 5vh 0;
   justify-content: center;
   align-items: flex-end; /* Align on Figcaption */
@@ -58,8 +58,9 @@ p {
   text-align: center;
 }
 
-figure img {
-  width: 15vw;
+.gallery img {
+  width: 80px;
+  height: 80px;
   border: 1px solid #8d9093;
 }
 
@@ -85,13 +86,14 @@ a button:hover {
   filter: alpha(opacity=85); /* IE */
 }
 
-figure img:hover {
+.gallery img:hover {
   opacity: 0.85;
   filter: alpha(opacity=85); /* IE */
 }
 
 #unionImg {
   border: 0;
+  height:auto;
 }
 
 #picsDownload {
@@ -177,7 +179,7 @@ figure img:hover {
   figcaption {
     font-family: sans-serif;
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
 
   button {
