@@ -51,7 +51,7 @@ p {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: 2.5vh 0 5vh 0;
+  margin: 1vh 0 2vh 0;
   justify-content: center;
   align-items: flex-end; /* Align on Figcaption */
   flex-wrap: wrap;
@@ -79,6 +79,7 @@ button {
   border-top: 0px;
   width: 8vh;
   height: 8vh;
+  padding: 0.1em;
 }
 
 a button:hover {
