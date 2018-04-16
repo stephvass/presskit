@@ -51,7 +51,7 @@ p {
   display: flex;
   flex-direction: row;
   width: 95%;
-  margin: 2.5vh 2.5% 5vh 2.5%;
+  margin: 2.5vh 0 5vh 0;
   justify-content: center;
   align-items: flex-end; /* Align on Figcaption */
   flex-wrap: wrap;
@@ -103,13 +103,12 @@ a button:hover {
 #facebookBtn {
   background-color: #3b5998;
   color: white;
-  margin-right: 5vw;
 }
 
 #soundcloudBtn {
   background-color: #ff5500;
   color: white;
-  margin-right: 5vw;
+  margin: 0 5vw 0 5vw;
 }
 
 #instagramBtn {
