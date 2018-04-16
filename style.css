@@ -50,15 +50,26 @@ p {
 .gallery{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 95%;
+  margin: 0 2.5% 0 2.5%;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 1px solid #25292c;
+}
+
+figure img {
+  width: 15vw;
+  border: 2px solid #8d9093;
 }
 
 figcaption {
   font-family: sans-serif;
   font-weight: 400;
+  font-size: .8em;
   line-height: 1.1em;
-  text-align: center;
+
 }
 
 button {
