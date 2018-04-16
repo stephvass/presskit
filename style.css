@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("Images/reynier-carl-440211-unsplash.jpg");
+  background-image: url("Content/Background/reynier-carl-440211-unsplash-transparent.jpg");
   background-size: cover;
 }
 
@@ -13,7 +13,7 @@ body {
 
 #bio img {
   border-radius: 2%;
-  max-width: 85vh; /* Height not width! */
+  max-width: 75vw; /* Height not width! */
   border: 1px solid #8d9093;
   margin: 1.5vh 0 1.5vh 0;
 }
@@ -114,7 +114,7 @@ a button:hover {
 @media screen and (orientation:portrait) {
 
   .parallaxOne {
-    background-image: url("Images/reynier-carl-440211-unsplash-transparent.jpg");
+    background-image: url("Content/Background/reynier-carl-440211-unsplash-transparent.jpg");
     background-size: cover;
   }
 
@@ -123,8 +123,8 @@ a button:hover {
   }
 
   #bio img {
-    width: 90vw;
-    margin: 3% 5vw 3% 5vw; /* Up, Right, Bot, Left */
+    width: 100vw;
+    margin: 3% 0 3% 0; /* Up, Right, Bot, Left */
     border-radius: 2%;
   }
 
@@ -147,6 +147,10 @@ a button:hover {
     line-height: 1.4em;
     font-weight: 300;
     font-size: 1.3em;
+  }
+
+  button {
+    font-size: 2.5em;
   }
 
   #picsDownload{
