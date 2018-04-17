@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("Content/Background/luca-bravo-195736-unsplash-transparent.jpg");
+  background-image: url("Content/Background/teemu-paananen-283670-unsplash-transparent.jpg");
   background-size: cover;
 }
 
@@ -148,7 +148,7 @@ a button:hover {
 @media screen and (orientation: portrait) {
 
   .fullPage {
-    background-image: url("Content/Background/reynier-carl-440211-unsplash-transparent.jpg");
+    background-image: url("Content/Background/teemu-paananen-283670-unsplash-transparent.jpg");
     background-size: cover;
   }
 
