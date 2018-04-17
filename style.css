@@ -29,7 +29,7 @@ h1 {
 p {
   margin: 0 12.5vw 0 12.5vw;
   padding: 1.5vw;
-  font-family: sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-weight: 300;
   line-height: 1.2em;
   text-align: center;
@@ -64,15 +64,9 @@ p {
   border: 1px solid #8d9093;
 }
 
-figcaption {
-  font-family: sans-serif;
-  font-weight: 500;
-  font-size: .8em;
-  line-height: 1.1em;
-}
-
 button {
   font-size: 1em;
+  font-family: 'Comfortaa', sans-serif;
   margin-bottom: 1em;
   border-radius: 50%;
   border-left: 0px;
@@ -153,7 +147,7 @@ a button:hover {
 /* Portrait styles */
 @media screen and (orientation: portrait) {
 
-  .parallaxOne {
+  .fullPage {
     background-image: url("Content/Background/reynier-carl-440211-unsplash-transparent.jpg");
     background-size: cover;
   }
@@ -174,19 +168,13 @@ a button:hover {
     text-align: center;
     margin: 0 3.5vw 0 3.5vw;
     padding: 1em;
-    font-family: sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     font-weight: 400;
     font-size: 3em;
   }
 
   #mixcloud {
     margin: 3% 0 3% 0;
-  }
-
-  figcaption {
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 2.2em;
   }
 
   button {
