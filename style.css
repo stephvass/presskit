@@ -147,6 +147,19 @@ a button:hover {
   justify-content: flex-end;
 }
 
+.fa-music {
+  color: #4cbad3;
+}
+
+.fa-heart {
+  color: #d14a30;
+}
+
+#copyright p {
+  font-size: .75em;
+  padding: 0 0 1% 0;
+}
+
 /* Portrait styles */
 @media screen and (orientation: portrait) {
 
