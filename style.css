@@ -62,8 +62,8 @@ p {
 }
 
 .gallery img {
-  width: 11.5vw;
-  height: 11.5vw;
+  width: 10vw;
+  height: 10vw;
   margin: 0 0.3vw 0 0.3vw;
   border-radius: 5%;
 }
