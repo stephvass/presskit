@@ -62,8 +62,8 @@ p {
 }
 
 .gallery img {
-  width: 10vw;
-  height: 10vw;
+  width: 18.5vw;
+  height: 18.5vw;
   margin: 0 0.3vw 0 0.3vw;
   border-radius: 5%;
 }
@@ -169,7 +169,7 @@ a button:hover {
   }
 
   h1 {
-    font-size: 6em;
+    font-size: 3.3em;
   }
 
   #bio img { /* Full width banner */
@@ -186,7 +186,7 @@ a button:hover {
     padding: 1em;
     font-family: 'Comfortaa', sans-serif;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 1em;
   }
 
   #mixcloud {
@@ -194,14 +194,14 @@ a button:hover {
   }
 
   button {
-    font-size: 2.5em;
+    font-size: .9em;
     margin-right: 0; /* Reset spacing, as it's done by flexbox on mobile */
   }
 
   #picsDownload{
     border-radius: 4%;
     padding: .8em;
-    font-size: 2.2em;
+    font-size: .9em;
     margin-bottom: 2em;
   }
 
