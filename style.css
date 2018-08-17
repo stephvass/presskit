@@ -62,8 +62,8 @@ p {
 }
 
 .gallery img {
-  width: 18.5vw;
-  height: 18.5vw;
+  width: 14vw;
+  height: 14vw;
   margin: 0 0.3vw 0 0.3vw;
   border-radius: 5%;
 }
@@ -186,7 +186,11 @@ a button:hover {
     padding: 1em;
     font-family: 'Comfortaa', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+  }
+
+  .gallery img {
+    width: 18.5vw;
+    height: 18.5vw;
   }
 
   #mixcloud {
