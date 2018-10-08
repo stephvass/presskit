@@ -62,9 +62,9 @@ p {
 }
 
 .gallery img {
-  width: 14vw;
-  height: 14vw;
-  margin: 0 0.3vw 0 0.3vw;
+  width: 16.25vw;
+  height: 16.25vw;
+  margin: 0 0.5vw 0 0.5vw;
   border-radius: 5%;
 }
 
