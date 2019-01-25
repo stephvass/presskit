@@ -62,8 +62,8 @@ p {
 }
 
 .gallery img {
-  width: 16.25vw;
-  height: 16.25vw;
+  width: 14.25vw;
+  height: 14.25vw;
   margin: 0 0.5vw 0 0.5vw;
   border-radius: 5%;
 }
@@ -189,8 +189,8 @@ a button:hover {
   }
 
   .gallery img {
-    width: 18.5vw;
-    height: 18.5vw;
+    width: 30vw;
+    height: 30vw;
   }
 
   #mixcloud {
