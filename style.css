@@ -3,12 +3,14 @@ body {
   margin: 0;
   background-image: url("Content/Background/teemu-paananen-283670-unsplash-transparent.jpg");
   background-size: cover;
+
+  scroll-behavior: smooth;
 }
 
-#splash {
+.splash {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: baseline;
   background-image: url("Content/Images/Steph Vass on the decks 1.jpg");
   height: calc(100vw*0.66);
   background-size: cover;
@@ -17,14 +19,20 @@ body {
   background-blend-mode: soft-light;
 }
 
-#bio {
+.splash-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#scroll-arrow {
+  margin: 0 0 calc(100vw * 0.66 - 98vh) 3vw; /* check .splash height */
+  align-self: flex-start;
+  /* Add shadows here */
 }
 
 h1 {
-  font-size: 2.9em;
+  font-size: 3.3em;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   padding: 1vh;
@@ -34,14 +42,23 @@ h1 {
 
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin: 0 3vw 0 0;
+}
+
+#bio {
+  display: flex;
+  justify-content: center;
+}
+
+#bio p {
+  max-width: 40%;
 }
 
 p {
   margin: 0 12.5vw 0 12.5vw;
   padding: 1.5vw;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
   line-height: 1.5em;
   text-align: center;
@@ -83,7 +100,7 @@ p {
 
 button {
   font-size: 1em;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   margin-bottom: 1em;
   border-radius: 50%;
   border-left: 0px;
@@ -182,7 +199,11 @@ a button:hover {
   }
 
   h1 {
-    font-size: 3.3em;
+    font-size: 1.9em;
+  }
+
+  h2 {
+    font-size: 1.2em;
   }
 
   #bio img { /* Full width banner */
@@ -197,7 +218,7 @@ a button:hover {
     text-align: center;
     margin: 0 3.5vw 0 3.5vw;
     padding: 1em;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
   }
 
@@ -226,4 +247,22 @@ a button:hover {
     justify-content: space-around;
   }
 
+}
+
+@media screen and (max-width: 1180px) {
+  #scroll-arrow {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 610px) and (max-width: 810px) {
+  #bio p {
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 609px) {
+  #bio p {
+    max-width: 65%;
+  }
 }
